@@ -39,6 +39,8 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
+
+  // bu alanda değişiklik yapıldı. 
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
   // how it looks.
@@ -57,6 +59,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
+  // bu bir testtir.
   void _incrementCounter() {
     setState(() {
       // This call to setState tells the Flutter framework that something has
@@ -68,6 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
+  // test teststest setsetset
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
